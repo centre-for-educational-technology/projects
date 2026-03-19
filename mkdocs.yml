@@ -37,6 +37,7 @@ nav:
   - Approaches:
       - approaches/index.md
   - Publications: publications.md
+  - About: about.md
 
 markdown_extensions:
   - admonition

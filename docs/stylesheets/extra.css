@@ -235,6 +235,13 @@ body,
   gap: 0.6rem;
 }
 
+.lab-tool-meta p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+}
+
 .lab-tool-body {
   padding: 1.6rem 2rem;
 }
@@ -522,6 +529,14 @@ body,
 /* --- Footer ------------------------------------------------- */
 .md-footer {
   background: var(--lab-navy);
+}
+
+.md-footer-meta__inner.md-grid {
+  display: flex;
+}
+
+.md-footer-meta .md-copyright {
+  display: none;
 }
 
 /* --- Responsive --------------------------------------------- */
