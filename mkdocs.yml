@@ -1,0 +1,32 @@
+site_name: Research Group
+site_url: ""
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Tools:
+      - tools/index.md
+      - Example Tool: tools/example-tool.md
+  - Approaches:
+      - approaches/index.md
+  - Publications: publications.md
