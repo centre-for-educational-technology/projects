@@ -1,32 +1,52 @@
-site_name: Research Group
-site_url: ""
+site_name: Centre for Educational Technology
+site_url: https://centre-for-educational-technology.github.io/projects/
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    scheme: default
+    primary: custom
+    accent: custom
+  font: false
   features:
     - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
 
 plugins:
   - search
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md
   - Tools:
       - tools/index.md
-      - Example Tool: tools/example-tool.md
+      - Trajectory Builder: tools/trajectory-builder.md
+      - Curriculum Manager: tools/curriculum-manager.md
+      - RAGistrat: tools/ragistrat.md
+      - Diffusion Game: tools/diffusion-game.md
+      - ICAP Lesson Plan: tools/icap-lesson-plan.md
+      - eDidaktikum: tools/edidaktikum.md
   - Approaches:
       - approaches/index.md
   - Publications: publications.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      toc_depth: 0
