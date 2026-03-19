@@ -24,6 +24,8 @@ A learning trajectory application for creating and managing educational learning
 
 Trajectory Builder enables teachers to create structured learning paths — trajectories composed of episodes and tasks — and deploy them as sessions that students enroll in via registration codes. The platform captures granular learning analytics through xAPI integration with H5P content, provides Bayesian prediction of learning outcomes, and connects all content to the Estonian national curriculum via cascading skill-bit mappings.
 
+![Trajectory Builder — learning path platform showing trajectory flow with episodes, tasks, skill-bit mastery, and Bayesian outcome prediction](../assets/images/trajectory-builder/trajektoor.webp)
+
 ### Key Capabilities
 
 - **Instructional Trajectory Management** — hierarchical content organization with visual flow diagrams (Mermaid.js)
@@ -201,23 +203,9 @@ GET /api/h5p/search?q={query}
 - Students see only their own progress
 - GDPR-compliant data handling
 
-<span class="lab-section-num">// 09</span>
-
-## Related Publications
-
-<div class="lab-pub" markdown>
-<div class="lab-pub-year">—</div>
-<div class="lab-pub-info" markdown>
-<span class="lab-pub-title">Publications related to this tool will be listed here.</span>
-<span class="lab-pub-authors"></span>
-<span class="lab-pub-venue"></span>
-</div>
-</div>
-
 <span class="lab-section-num">// 10</span>
 
-## Source Code & Links
+## Related Services
 
-- **Repository**: [github.com/centre-for-educational-technology/trajectory-builder](#)
 - **Curriculum API**: [cm.h5p.ee](https://cm.h5p.ee/)
 - **H5P Content**: [vara.h5p.ee](https://vara.h5p.ee/)

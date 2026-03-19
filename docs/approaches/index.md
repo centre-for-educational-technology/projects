@@ -95,14 +95,14 @@ This work has produced frameworks for digital competence assessment feedback, st
 </div>
 
 <div class="lab-approach" markdown>
-<div class="lab-approach-id">OSS</div>
+<div class="lab-approach-id">OPN</div>
 <div class="lab-approach-body" markdown>
 
-### Open Source & Open Science
+### Open Science & Collaborative Development
 
-We release our tools as open-source software and publish our research openly wherever possible. This is not only an ethical commitment but a methodological one: open tools can be inspected, replicated, and adapted by other research groups, strengthening the evidence base for educational technology. Open data and open instruments enable meta-analyses and cross-context comparisons that closed research cannot support.
+We publish our research openly wherever possible and share data, instruments, and findings to strengthen the evidence base for educational technology. Open data and open instruments enable meta-analyses and cross-context comparisons that closed research cannot support.
 
-The Curriculum Manager exports curriculum data as linked open data (RDF/JSON-LD) specifically to enable interoperability across the Estonian educational technology ecosystem. Our publications are increasingly available as open access, and we contribute to community-driven standards such as xAPI for learning analytics interoperability.
+Our tools are developed within a collaborative model — we actively seek partnerships with research groups, institutions, and educational organizations interested in adopting or co-developing our platforms. We contribute to community-driven interoperability standards such as xAPI for learning analytics, and export curriculum data as linked open data (RDF/JSON-LD) to enable interoperability across educational technology ecosystems. Our publications are increasingly available as open access.
 
 </div>
 </div>

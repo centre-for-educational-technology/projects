@@ -141,21 +141,4 @@ The analytics dashboard provides multiple levels of insight:
 
 Designers see only their own versions plus shared templates. Facilitators see only published versions. Fine-grained authorization policies enforce visibility boundaries.
 
-<span class="lab-section-num">// 08</span>
 
-## Related Publications
-
-<div class="lab-pub" markdown>
-<div class="lab-pub-year">—</div>
-<div class="lab-pub-info" markdown>
-<span class="lab-pub-title">Publications related to this tool will be listed here.</span>
-<span class="lab-pub-authors"></span>
-<span class="lab-pub-venue"></span>
-</div>
-</div>
-
-<span class="lab-section-num">// 09</span>
-
-## Source Code & Links
-
-- **Repository**: [github.com/centre-for-educational-technology/diffusion-simulation-game](#)

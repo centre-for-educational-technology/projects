@@ -132,21 +132,4 @@ RAGistrat includes a built-in evaluation harness for measuring analysis quality:
 
 **Access control** — role-based (admin, instructor, student) with policy-based authorization on all resources. Horizon dashboard restricted to admin/instructor roles.
 
-<span class="lab-section-num">// 07</span>
 
-## Related Publications
-
-<div class="lab-pub" markdown>
-<div class="lab-pub-year">—</div>
-<div class="lab-pub-info" markdown>
-<span class="lab-pub-title">Publications related to this tool will be listed here.</span>
-<span class="lab-pub-authors"></span>
-<span class="lab-pub-venue"></span>
-</div>
-</div>
-
-<span class="lab-section-num">// 08</span>
-
-## Source Code & Links
-
-- **Repository**: [github.com/centre-for-educational-technology/ragistrat](#)

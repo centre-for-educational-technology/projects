@@ -23,6 +23,8 @@ A lesson planning tool for teachers to design, implement, and reflect on lessons
 
 The ICAP Lesson Plan Toolbox helps teachers structure their lessons around Chi & Wylie's ICAP framework, which categorizes learning activities by cognitive engagement level. Teachers design lesson plans with tasks mapped to ICAP levels, track classroom implementation, collect student data, and reflect using a structured perceive–interpret–decide cycle. A mentor system allows experienced educators to review and guide lesson design.
 
+![ICAP Lesson Plan Toolbox — lesson design interface with Interactive, Constructive, Active, and Passive task levels](../assets/images/icap-lesson-plan/icap.webp)
+
 ### Key Capabilities
 
 - **ICAP-structured lesson design** — organize tasks by cognitive engagement level (Passive, Active, Constructive, Interactive) with tools, feedback types, and transitions
@@ -114,21 +116,4 @@ The mentor system supports professional development by pairing experienced educa
 - Mentors can review lesson designs, implementation logs, and reflections
 - Role-based access ensures mentors only see their own assigned teachers
 
-<span class="lab-section-num">// 07</span>
 
-## Related Publications
-
-<div class="lab-pub" markdown>
-<div class="lab-pub-year">—</div>
-<div class="lab-pub-info" markdown>
-<span class="lab-pub-title">Publications related to this tool will be listed here.</span>
-<span class="lab-pub-authors"></span>
-<span class="lab-pub-venue"></span>
-</div>
-</div>
-
-<span class="lab-section-num">// 08</span>
-
-## Source Code & Links
-
-- **Repository**: [github.com/centre-for-educational-technology/icap-lesson-plan](#)

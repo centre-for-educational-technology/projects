@@ -87,7 +87,7 @@ Our methodology is rooted in **design-based research** — we don't separate too
 
 We work in **multi-stakeholder partnerships** — with schools, ministries, European research consortia, and industry partners. Our tools are developed with teachers and learners as active co-designers, not passive recipients. We believe that educational technology succeeds or fails at the point of adoption, so understanding institutional contexts, teacher beliefs, and social dynamics is as important as writing good code.
 
-We are committed to **open science and open source**. Our software is released openly, our data and instruments are shared where possible, and we contribute to community-driven interoperability standards. We publish in leading venues including Computers & Education, IEEE Transactions on Learning Technologies, Journal of Computer Assisted Learning, European Journal of Teacher Education, and Frontiers in Artificial Intelligence.
+We are committed to **open science and collaborative development**. Our research findings, data, and instruments are shared openly wherever possible, and we contribute to community-driven interoperability standards. We welcome partnerships with research groups, institutions, and organizations interested in our tools — reach out to discuss collaboration opportunities. We publish in leading venues including Computers & Education, IEEE Transactions on Learning Technologies, Journal of Computer Assisted Learning, European Journal of Teacher Education, and Frontiers in Artificial Intelligence.
 
 <span class="lab-section-num">// 04</span>
 

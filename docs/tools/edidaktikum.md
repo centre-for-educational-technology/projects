@@ -131,8 +131,3 @@ The platform supports two authentication paths:
 
 Legacy users created before email verification was enabled are handled via a configurable cutoff date, exempting them from verification unless they change their email address.
 
-<span class="lab-section-num">// 07</span>
-
-## Source Code & Links
-
-- **Repository**: [github.com/centre-for-educational-technology/edidaktikum](#)

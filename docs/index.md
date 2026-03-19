@@ -3,7 +3,7 @@
 
 <span class="lab-hero-tag">R&D Portfolio</span>
 
-# We build *open-source tools* for educational research
+# We build *research tools* for education
 
 <div class="lab-hero-desc">
 The Centre for Educational Technology develops software instruments and platforms grounded in learning sciences. Each tool is a research artifact — designed, deployed, and evaluated in authentic educational settings.

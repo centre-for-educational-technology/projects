@@ -24,6 +24,8 @@ A platform for managing and publishing Estonian national curriculum data in mach
 
 The Curriculum Manager transforms the Estonian national curriculum into a structured, machine-readable knowledge graph. Curriculum editors define subjects, hierarchical topics, learning outcomes, and granular skill-bits, while the system maintains semantic relationships (prerequisites, compositions) between outcomes — including cross-subject dependencies. The entire dataset is exportable as RDF Turtle, JSON-LD, or plain JSON for consumption by external platforms.
 
+![Interactive relationship graph showing prerequisite and composition links between learning outcomes across school levels and subjects](../assets/images/curriculum-manager/cm.webp)
+
 ### Key Capabilities
 
 - **Semantic Curriculum Graph** — define `expects` (prerequisite) and `consistsOf` (composition) relationships between learning outcomes, visualized as an interactive node graph with click-to-expand exploration
@@ -124,23 +126,9 @@ Outcome relations (prerequisite chains and compositions) were generated using Cl
 
 The generated relations are stored as structured JSON and imported alongside the curriculum data using deterministic UUIDs, making re-import safe and idempotent.
 
-<span class="lab-section-num">// 06</span>
-
-## Related Publications
-
-<div class="lab-pub" markdown>
-<div class="lab-pub-year">—</div>
-<div class="lab-pub-info" markdown>
-<span class="lab-pub-title">Publications related to this tool will be listed here.</span>
-<span class="lab-pub-authors"></span>
-<span class="lab-pub-venue"></span>
-</div>
-</div>
-
 <span class="lab-section-num">// 07</span>
 
-## Source Code & Links
+## Related Services
 
-- **Repository**: [github.com/centre-for-educational-technology/rdf-curriculum-manager](#)
 - **Live API**: [cm.h5p.ee](https://cm.h5p.ee/)
 - **API Documentation**: [Integration Guide](https://cm.h5p.ee/integration-guide)
