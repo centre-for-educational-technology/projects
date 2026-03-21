@@ -40,7 +40,7 @@ A learning trajectory application for creating structured educational paths with
 </div>
 <div class="lab-tool-body" markdown>
 
-### EduFlex RDF Curriculum Manager
+### RDF Curriculum Manager
 
 Managing and publishing Estonian national curriculum data in RDF and JSON-LD formats with semantic relationship visualization and linked data export for e-learning platform interoperability.
 

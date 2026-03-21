@@ -8,7 +8,7 @@
 <span class="lab-badge lab-badge--stack">React Flow</span>
 </div>
 
-# EduFlex RDF Curriculum Manager
+# RDF Curriculum Manager
 
 <div class="lab-detail-desc">
 A platform for managing and publishing Estonian national curriculum data in machine-readable RDF and JSON-LD formats. Enables semantic relationships between learning outcomes, interactive graph visualization, and linked data export for interoperability with e-learning platforms.
