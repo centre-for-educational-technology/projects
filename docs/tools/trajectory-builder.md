@@ -22,7 +22,7 @@ A learning trajectory application for creating and managing educational learning
 
 ## Overview
 
-Trajectory Builder enables teachers to create structured learning paths — trajectories composed of episodes and tasks — and deploy them as sessions that students enroll in via registration codes. The platform captures granular learning analytics through xAPI integration with H5P content, provides Bayesian prediction of learning outcomes, and connects all content to the Estonian national curriculum via cascading skill-bit mappings.
+Trajectory Builder enables teachers to create structured learning paths, trajectories composed of episodes and tasks, and deploy them as sessions that students enroll in via registration codes. The platform captures granular learning analytics through xAPI integration with H5P content, provides Bayesian prediction of learning outcomes, and connects all content to the Estonian national curriculum via cascading skill-bit mappings.
 
 ![Trajectory Builder — learning path platform showing trajectory flow with episodes, tasks, skill-bit mastery, and Bayesian outcome prediction](../assets/images/trajectory-builder/trajektoor.webp)
 
@@ -55,7 +55,7 @@ Trajectory Builder enables teachers to create structured learning paths — traj
 </div>
 <div class="lab-spec-row" markdown>
 <div class="lab-spec-key">Database</div>
-<div class="lab-spec-val">MySQL (DDEV local / Ploi.io production)</div>
+<div class="lab-spec-val">MySQL</div>
 </div>
 <div class="lab-spec-row" markdown>
 <div class="lab-spec-key">Media</div>
@@ -69,25 +69,17 @@ Trajectory Builder enables teachers to create structured learning paths — traj
 <div class="lab-spec-key">Interoperability</div>
 <div class="lab-spec-val">xAPI statements, LTI-compatible H5P embedding</div>
 </div>
-<div class="lab-spec-row" markdown>
-<div class="lab-spec-key">Deployment</div>
-<div class="lab-spec-val">Ploi.io (production), DDEV (local development)</div>
-</div>
-<div class="lab-spec-row" markdown>
-<div class="lab-spec-key">License</div>
-<div class="lab-spec-val">MIT</div>
-</div>
 </div>
 
 ### Service Architecture
 
-The application is organized around specialized service classes:
+The application is organized around specialised service classes:
 
 | Service | Responsibility |
 |---------|----------------|
 | `StudentProgressService` | Progress calculation, time analytics, xAPI metrics |
 | `TeacherInsightsService` | Session overview, heatmaps, at-risk detection |
-| `SuggestionEngine` | Personalized recommendations (Estonian language) |
+| `SuggestionEngine` | Personalised recommendations |
 | `LearningOutcomePredictionService` | Bayesian probability predictions |
 | `ResourceCompletionService` | xAPI-gated completion eligibility with fallback logic |
 | `CurriculumApiService` | Communication with Curriculum Tool API, local caching |

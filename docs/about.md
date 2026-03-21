@@ -27,7 +27,7 @@ Our research addresses questions at the intersection of computer science, learni
 
 We don't build tools and then look for problems to solve. We start with research questions arising from authentic educational challenges, develop technology-based interventions through iterative design-based research, and evaluate their impact in real classrooms and training contexts.
 
-The tools featured on this site represent our primary R&D portfolio — platforms that are actively developed, deployed, and researched. Beyond these, we contribute to a wider ecosystem of projects and services spanning areas such as STE(A)M education, citizen science, game-based learning, personalised learning, digital competence assessment, and curriculum analytics. Our work extends wherever technology meets a genuine educational need.
+The tools featured on this site represent our primary R&D portfolio. These are platforms that are actively developed, deployed, and researched. Beyond these, we contribute to a wider ecosystem of projects and services spanning areas such as STE(A)M education, citizen science, game-based learning, personalised learning, digital competence assessment, and curriculum analytics. Our work extends wherever technology meets a genuine educational need.
 
 <span class="lab-section-num">// 02</span>
 
@@ -41,7 +41,7 @@ Our work is situated within several overlapping research domains:
 
 ### Technology-Enhanced Learning
 
-Our core discipline. We investigate how digital tools, platforms, and data-driven systems can support and transform educational practice — from primary schools to universities to professional training.
+Our core discipline. We investigate how digital tools, platforms, and data-driven systems can support and transform educational practice, from primary schools to universities to professional training.
 
 </div>
 </div>
@@ -52,7 +52,7 @@ Our core discipline. We investigate how digital tools, platforms, and data-drive
 
 ### Learning Analytics
 
-We develop model-based learning analytics approaches where pedagogical frameworks structure data collection, analysis, and feedback. Our focus is on making analytics actionable for teachers — not just dashboards, but tools that change practice.
+We develop model-based learning analytics approaches where pedagogical frameworks structure data collection, analysis, and feedback. Our focus is on making analytics actionable for teachers: not just dashboards, but tools that change practice.
 
 </div>
 </div>
@@ -63,7 +63,7 @@ We develop model-based learning analytics approaches where pedagogical framework
 
 ### Artificial Intelligence in Education
 
-We explore how AI can augment — not replace — human expertise in education. Our research covers retrieval-augmented generation for assessment, hybrid intelligent systems for teaching, and the training teachers need to work effectively with AI.
+We explore how AI can augment (not replace) human expertise in education. Our research covers retrieval-augmented generation for assessment, hybrid intelligent systems for teaching, and the training teachers need to work effectively with AI.
 
 </div>
 </div>
@@ -83,11 +83,11 @@ A significant strand of our work focuses on how teachers develop digital compete
 
 ## How We Work
 
-Our methodology is rooted in **design-based research** — we don't separate tool-building from knowledge-building. Each project moves through iterative cycles of design, deployment in authentic settings, analysis, and redesign. This means our tools carry the marks of real classroom use, and our publications carry the weight of real implementation experience.
+Our methodology is rooted in **design-based research**. We don't separate tool-building from knowledge-building. Each project moves through iterative cycles of design, deployment in authentic settings, analysis, and redesign. This means our tools carry the marks of real classroom use, and our publications carry the weight of real implementation experience.
 
-We work in **multi-stakeholder partnerships** — with schools, ministries, European research consortia, and industry partners. Our tools are developed with teachers and learners as active co-designers, not passive recipients. We believe that educational technology succeeds or fails at the point of adoption, so understanding institutional contexts, teacher beliefs, and social dynamics is as important as writing good code.
+We work in **multi-stakeholder partnerships** with schools, ministries, European research consortia, and industry partners. Our tools are developed with teachers and learners as active co-designers, not passive recipients. We believe that educational technology succeeds or fails at the point of adoption, so understanding institutional contexts, teacher beliefs, and social dynamics is as important as writing good code.
 
-We are committed to **open science and collaborative development**. Our research findings, data, and instruments are shared openly wherever possible, and we contribute to community-driven interoperability standards. We welcome partnerships with research groups, institutions, and organizations interested in our tools — reach out to discuss collaboration opportunities. We publish in leading venues including Computers & Education, IEEE Transactions on Learning Technologies, Journal of Computer Assisted Learning, European Journal of Teacher Education, and Frontiers in Artificial Intelligence.
+We are committed to **open science and collaborative development**. Our research findings, data, and instruments are shared openly wherever possible, and we contribute to community-driven interoperability standards. We welcome partnerships with research groups, institutions, and organizations interested in our tools. Please do reach out to discuss collaboration opportunities. We publish in leading venues including Computers & Education, IEEE Transactions on Learning Technologies, Journal of Computer Assisted Learning, European Journal of Teacher Education, and Frontiers in Artificial Intelligence.
 
 <span class="lab-section-num">// 04</span>
 

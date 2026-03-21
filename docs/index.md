@@ -124,7 +124,7 @@ Competency-based learning platform built on Estonian national occupational stand
 
 ### Design-Based Research
 
-Each tool is developed through iterative cycles — design, deploy, evaluate, redesign — in authentic educational settings, generating both practical artifacts and theoretical insights.
+Each tool is developed through iterative cycles (design, deploy, evaluate, redesign) in authentic educational settings, generating both practical artifacts and theoretical insights.
 
 </div>
 </div>
@@ -135,7 +135,7 @@ Each tool is developed through iterative cycles — design, deploy, evaluate, re
 
 ### Model-Based Learning Analytics
 
-Pedagogical models structure what data we collect, how it is analysed, and what feedback is generated — enabling a partnership between teachers, learners, and intelligent technology.
+Pedagogical models structure what data we collect, how it is analysed, and what feedback is generated which enables a partnership between teachers, learners, and intelligent technology.
 
 </div>
 </div>
@@ -146,7 +146,7 @@ Pedagogical models structure what data we collect, how it is analysed, and what 
 
 ### Teacher-AI Complementarity
 
-We investigate how teachers and AI systems can work together as hybrid intelligent systems — where human pedagogical expertise and machine capabilities complement rather than replace each other.
+We investigate how teachers and AI systems can work together as hybrid intelligent systems, where human pedagogical expertise and machine capabilities complement rather than replace each other.
 
 </div>
 </div>
@@ -157,7 +157,7 @@ We investigate how teachers and AI systems can work together as hybrid intellige
 
 ### Co-Creation with Practitioners
 
-Our tools are developed with teachers, not for them — through school–university–industry partnerships that translate research into sustainable adoption.
+Our tools are developed with teachers, not for them. This happens through school–university–industry partnerships that translate research into sustainable adoption
 
 </div>
 </div>

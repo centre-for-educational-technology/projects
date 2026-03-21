@@ -21,7 +21,7 @@ A competency-based learning platform built on Estonian national occupational qua
 
 ## Overview
 
-eDidaktikum is a platform where teaching meets technology. It enables competency-based learning by linking courses, tasks, and assessments to national occupational qualification standards maintained by Kutsekoda (Estonian Qualifications Authority). Whether running a university seminar, leading a research group, or training gardeners — the platform adapts to diverse educational workflows.
+eDidaktikum is a platform where teaching meets technology. It enables competency-based learning by linking courses, tasks, and assessments to national occupational qualification standards maintained by Kutsekoda (Estonian Qualifications Authority). Whether running a university seminar, leading a research group, or training gardeners, the platform adapts to diverse educational workflows.
 
 eDidaktikum is not an official competency certification tool. It is an independent service that supports various stakeholders in the competency development process.
 

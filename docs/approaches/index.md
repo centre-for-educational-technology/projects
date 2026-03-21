@@ -1,6 +1,6 @@
 # Research Approaches
 
-Our research sits at the intersection of educational technology, learning sciences, and teacher professional development. We develop socio-technical systems for learning — tools that are simultaneously functional platforms and research instruments — grounded in the methodological traditions below. Our work spans technology-enhanced teaching methods, learning analytics for teacher professional development, flexible and personalized learning, and the emerging field of Teacher-AI complementarity.
+Our research sits at the intersection of educational technology, learning sciences, and teacher professional development. We develop socio-technical systems for learning: tools that are simultaneously functional platforms and research instruments, grounded in the methodological traditions below. Our work spans technology-enhanced teaching methods, learning analytics for teacher professional development, flexible and personalized learning, and the emerging field of Teacher-AI complementarity.
 
 ---
 
@@ -10,11 +10,11 @@ Our research sits at the intersection of educational technology, learning scienc
 
 ### Design-Based Research
 
-Our primary methodology is design-based research (DBR): iterative cycles of design, enactment in authentic educational settings, analysis, and redesign. Rather than building tools in isolation and then testing them, we treat each deployment as a research intervention — generating both practical artifacts and theoretical insights simultaneously.
+Our primary methodology is design-based research (DBR): iterative cycles of design, enactment in authentic educational settings, analysis, and redesign. Rather than building tools in isolation and then testing them, we treat each deployment as a research intervention, generating both practical artifacts and theoretical insights simultaneously.
 
-This approach is visible across our portfolio. Trajectory Builder emerged from a multi-year project on flexible learning paths in Estonian schools, iterated through classroom deployments with real teachers and students. RAGistrat was developed in collaboration with law faculty to understand how retrieval-augmented generation can support structured legal reasoning assessment. The Diffusion Simulation Game was redesigned from a 1980s board game through successive digital prototypes tested with educational technology students.
+This approach is visible across our portfolio. Trajectory Builder emerged from a multi-year project on flexible learning paths in Estonian schools, iterated through classroom deployments with real teachers and students. RAGistrat is currently being developed in collaboration with law faculty to understand how retrieval-augmented generation can support structured legal reasoning assessment. The Diffusion Simulation Game was redesigned from a 1980s board game through successive digital prototypes tested with educational technology students.
 
-DBR allows us to address problems that are too complex and context-dependent for controlled experiments alone — such as how teachers adopt new pedagogical practices when supported by analytics dashboards, or how students navigate flexible learning trajectories differently depending on prior knowledge.
+DBR allows us to address problems that are too complex and context-dependent for controlled experiments alone, such as how teachers adopt new pedagogical practices when supported by analytics dashboards, or how students navigate flexible learning trajectories differently depending on prior knowledge.
 
 </div>
 </div>
@@ -25,9 +25,9 @@ DBR allows us to address problems that are too complex and context-dependent for
 
 ### Model-Based Learning Analytics
 
-Learning analytics is a central pillar of our research — not as passive data collection, but as an active partnership between teachers, learners, and intelligent technology. Our focus is on model-based learning analytics: approaches where pedagogical models (such as ICAP cognitive engagement levels, or Bayesian knowledge models) structure what data is collected, how it is analysed, and what feedback is generated.
+Learning analytics is a central pillar of our research, not as passive data collection, but as an active partnership between teachers, learners, and intelligent technology. Our focus is on model-based learning analytics: approaches where pedagogical models (such as ICAP cognitive engagement levels, or Bayesian knowledge models) structure what data is collected, how it is analysed, and what feedback is generated.
 
-We investigate how learning analytics dashboards and training interventions can mediate teacher professional learning — helping teachers develop situation-specific skills for interpreting and acting on learner data. Our longitudinal intervention studies examine the factors influencing teachers' adoption of analytics-enhanced practices, including training design, individual characteristics, and institutional context.
+We investigate how learning analytics dashboards and training interventions can mediate teacher professional learning, helping teachers develop situation-specific skills for interpreting and acting on learner data. Our longitudinal intervention studies examine the factors influencing teachers' adoption of analytics-enhanced practices, including training design, individual characteristics, and institutional context.
 
 Key research questions include: How can model-based analytics foster students' higher-order thinking skills? What role do open learner models play in supporting student-centered learning? How do we move from analytics that describe what happened to analytics that help teachers and learners decide what to do next?
 
@@ -42,7 +42,7 @@ This work has been supported by the Estonian Research Council (PRG1634: Model-ba
 
 ### Teacher-AI Complementarity
 
-A growing strand of our research addresses the question of how teachers and AI systems can work together as hybrid intelligent systems — where the strengths of human pedagogical expertise and machine capabilities complement rather than replace each other. This goes beyond simply deploying AI tools in classrooms; it requires understanding which decisions should remain with teachers, which can be delegated to AI, and how the interface between them should be designed.
+A growing strand of our research addresses the question of how teachers and AI systems can work together as hybrid intelligent systems, where the strengths of human pedagogical expertise and machine capabilities complement rather than replace each other. This goes beyond simply deploying AI tools in classrooms; it requires understanding which decisions should remain with teachers, which can be delegated to AI, and how the interface between them should be designed.
 
 Our work spans the full cycle from design to implementation and reflection: how do teachers integrate AI-assisted analytics into their lesson planning? How do AI-generated assessments (as in RAGistrat) support rather than undermine instructor judgment? What scaffolds help teachers develop productive mental models of what AI can and cannot do?
 
@@ -57,7 +57,7 @@ This research direction is supported by the European Commission project Teacher-
 
 ### Flexible & Personalized Learning
 
-We investigate how technology can support student-centered learning through flexible learning trajectories — structured paths through curriculum content that adapt to individual learner needs, pace, and prior knowledge. This is not adaptive learning in the narrow sense of algorithm-driven content selection, but a broader approach where teachers design trajectory structures and learners navigate them with varying degrees of autonomy.
+We investigate how technology can support student-centered learning through flexible learning trajectories. These are structured paths through curriculum content that adapt to individual learner needs, pace, and prior knowledge. This is not adaptive learning in the narrow sense of algorithm-driven content selection, but a broader approach where teachers design trajectory structures and learners navigate them with varying degrees of autonomy.
 
 Our Trajectory Builder platform operationalizes this approach, connecting learning paths to the Estonian national curriculum via skill-bit mappings and providing open learner models that make progress visible to both students and teachers. Research in this area examines how flexible trajectories interact with student self-regulation, how teachers design and revise trajectories based on analytics feedback, and what curriculum structures best support meaningful personalization.
 
@@ -89,7 +89,7 @@ We have coordinated and participated in multiple European co-creation networks (
 
 A distinct research strand focuses on how educators' digital competence can be meaningfully assessed and developed. We take an evidence-informed decision-making approach, investigating stakeholder perspectives on what constitutes digital competence, how assessment feedback can be designed to support professional growth rather than just measure it, and how training programs translate into changed teaching practice.
 
-This work has produced frameworks for digital competence assessment feedback, studied the effectiveness of national-scale teacher training programs, and informed policy recommendations for the Estonian Ministry of Education. It connects directly to our tools — the analytics dashboards in Trajectory Builder and the assessment capabilities of RAGistrat both embody our understanding of how feedback should be structured to promote learning.
+This work has produced frameworks for digital competence assessment feedback, studied the effectiveness of national-scale teacher training programs, and informed policy recommendations for the Estonian Ministry of Education. It connects directly to our tools. The analytics dashboards in Trajectory Builder and the assessment capabilities of RAGistrat both embody our understanding of how feedback should be structured to promote learning.
 
 </div>
 </div>
@@ -102,7 +102,7 @@ This work has produced frameworks for digital competence assessment feedback, st
 
 We publish our research openly wherever possible and share data, instruments, and findings to strengthen the evidence base for educational technology. Open data and open instruments enable meta-analyses and cross-context comparisons that closed research cannot support.
 
-Our tools are developed within a collaborative model — we actively seek partnerships with research groups, institutions, and educational organizations interested in adopting or co-developing our platforms. We contribute to community-driven interoperability standards such as xAPI for learning analytics, and export curriculum data as linked open data (RDF/JSON-LD) to enable interoperability across educational technology ecosystems. Our publications are increasingly available as open access.
+Our tools are developed within a collaborative model. We actively seek partnerships with research groups, institutions, and educational organizations interested in adopting or co-developing our platforms. We contribute to community-driven interoperability standards such as xAPI for learning analytics, and export curriculum data as linked open data (RDF/JSON-LD) to enable interoperability across educational technology ecosystems. Our publications are increasingly available as open access.
 
 </div>
 </div>

@@ -21,7 +21,7 @@ An educational simulation game for teaching innovation adoption strategies based
 
 ## Overview
 
-The Diffusion Simulation Game lets players experiment with change management strategies in a simulated organization. Players manage staff, select activities, and respond to feedback as they attempt to spread an innovation — learning firsthand how adopter categories, communication channels, and social systems affect diffusion outcomes.
+The Diffusion Simulation Game lets players experiment with change management strategies in a simulated organisation. Players manage staff, select activities, and respond to feedback as they attempt to spread an innovation, learning firsthand how adopter categories, communication channels, and social systems affect diffusion outcomes.
 
 The platform supports multiple game variants, Kahoot-style multiplayer sessions with facilitator controls, and a visual game version editor for researchers and instructional designers to create custom scenarios.
 
@@ -100,9 +100,9 @@ Game versions are self-contained packages of configuration. The editor allows de
 
 Sessions follow a managed lifecycle: **draft → lobby → active → paused → completed → archived**.
 
-Facilitators create sessions linked to a published game version and receive a 6-character join code. Players join without needing accounts — they enter the code and a display name. The facilitator sees a real-time lobby and controls session start, pause, resume, and end.
+Facilitators create sessions linked to a published game version and receive a 6-character join code. Players join without needing accounts: they enter the code and a display name. The facilitator sees a real-time lobby and controls session start, pause, resume, and end.
 
-During active play, facilitators monitor live player progress via polling — current week, score, adoption rate — with session-level aggregate statistics. After completion, a leaderboard displays final results.
+During active play, facilitators monitor live player progress via polling - current week, score, adoption rate - with session-level aggregate statistics. After completion, a leaderboard displays final results.
 
 <span class="lab-section-num">// 05</span>
 

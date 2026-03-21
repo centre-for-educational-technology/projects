@@ -20,7 +20,7 @@ A RAG-powered assessment tool for legal education that provides evidence-based e
 
 ## Overview
 
-RAGistrat employs Retrieval-Augmented Generation to analyze law students' written submissions against a curated knowledge base of legal documents. The system evaluates work using the IRAC method (Issue, Rule, Application, Conclusion) and a configurable set of 17 assessment rules, producing structured feedback with norm citations and rule violation flags for instructor review.
+RAGistrat employs Retrieval-Augmented Generation to analyse law students' written submissions against a curated knowledge base of legal documents. The system evaluates work using the IRAC method (Issue, Rule, Application, Conclusion) and a configurable set of 17 assessment rules, producing structured feedback with norm citations and rule violation flags for instructor review.
 
 ### Workflow
 

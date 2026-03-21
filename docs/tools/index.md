@@ -48,7 +48,7 @@ Managing and publishing Estonian national curriculum data in RDF and JSON-LD for
 
 ### RAGistrat
 
-RAG-powered assessment tool for legal education — analyzes student submissions using the IRAC method against a curated knowledge base of legal sources, producing structured feedback with norm citations and violation flags.
+RAG-powered assessment tool for legal education - analyzes student submissions using the IRAC method against a curated knowledge base of legal sources, producing structured feedback with norm citations and violation flags.
 
 <a href="ragistrat/" class="lab-tool-link">Technical details</a>
 </div>

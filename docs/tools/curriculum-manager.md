@@ -22,7 +22,7 @@ A platform for managing and publishing Estonian national curriculum data in mach
 
 ## Overview
 
-The Curriculum Manager transforms the Estonian national curriculum into a structured, machine-readable knowledge graph. Curriculum editors define subjects, hierarchical topics, learning outcomes, and granular skill-bits, while the system maintains semantic relationships (prerequisites, compositions) between outcomes — including cross-subject dependencies. The entire dataset is exportable as RDF Turtle, JSON-LD, or plain JSON for consumption by external platforms.
+The Curriculum Manager transforms the Estonian national curriculum into a structured, machine-readable knowledge graph. Curriculum editors define subjects, hierarchical topics, learning outcomes, and granular skill-bits, while the system maintains semantic relationships (prerequisites, compositions) between outcomes including cross-subject dependencies. The entire dataset is exportable as RDF Turtle, JSON-LD, or plain JSON for consumption by external platforms.
 
 ![Interactive relationship graph showing prerequisite and composition links between learning outcomes across school levels and subjects](../assets/images/curriculum-manager/cm.webp)
 
@@ -60,10 +60,6 @@ The Curriculum Manager transforms the Estonian national curriculum into a struct
 <div class="lab-spec-key">API Auth</div>
 <div class="lab-spec-val">Laravel Sanctum (Bearer tokens)</div>
 </div>
-<div class="lab-spec-row" markdown>
-<div class="lab-spec-key">License</div>
-<div class="lab-spec-val">MIT</div>
-</div>
 </div>
 
 ### Core Services
@@ -98,7 +94,7 @@ The system manages the full Estonian national curriculum:
 | Skill-Bits | 10,391 |
 | Outcome Relations | 875 (849 expects + 26 consistsOf, including 153 cross-subject) |
 
-Coverage spans I–III kooliaste (grades 1–9) using 2023 national curriculum data and legacy data from oppekava.edu.ee, plus gümnaasium level with 91 courses across 26 subjects based on the 2023 gymnasium curriculum.
+Coverage spans I–III kooliaste (grades 1–9) using 2023 national curriculum data and legacy data from oppekava.edu.ee, plus gymnasium level with 91 courses across 26 subjects based on the 2023 gymnasium curriculum.
 
 <span class="lab-section-num">// 04</span>
 
