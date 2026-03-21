@@ -6,7 +6,7 @@
 # We build *research tools* for education
 
 <div class="lab-hero-desc">
-The Centre for Educational Technology develops software instruments and platforms grounded in learning sciences. Each tool is a research artifact — designed, deployed, and evaluated in authentic educational settings.
+The Centre for Educational Technology develops software instruments and platforms grounded in learning sciences. Each tool is a research artifact, designed, deployed, and evaluated in authentic educational settings.
 </div>
 
 </div>
