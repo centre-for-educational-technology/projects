@@ -22,15 +22,19 @@ A RAG-powered assessment tool for legal education that provides evidence-based e
 
 RAGistrat employs Retrieval-Augmented Generation to analyse law students' written submissions against a curated knowledge base of legal documents. The system evaluates work using the IRAC method (Issue, Rule, Application, Conclusion) and a configurable set of 17 assessment rules, producing structured feedback with norm citations and rule violation flags for instructor review.
 
+RAGistrat is a collaborative project between the School of Governance, Law and Society and the School of Digital Technologies at Tallinn University.
+
 ### Workflow
 
 1. **Knowledge base construction** — legal documents (PDF/TXT) are chunked, embedded, and stored as vectors for semantic search
 2. **Case definition** — instructors create legal scenarios and exercises
-3. **Submission collection** — students submit written legal analyses
+3. **Student enrollment** — instructors generate invite codes per case; students self-enroll and submit their analyses
 4. **AI analysis** — submissions are evaluated against the knowledge base and assessment rules, producing IRAC-structured feedback with norm citations and violation flags
 5. **Flag review** — critical issues are flagged for instructor review with accept/dismiss workflow
 6. **Instructor grading** — review AI analysis, adjust scores (0–18 German legal grading scale), provide feedback
-7. **PDF export** — download structured analysis reports
+7. **Student feedback** — once the instructor publishes, students see their grade, IRAC analysis, and improvement suggestions
+8. **Notifications** — in-app notifications fire when analyses complete and when grades are published, with an unread badge in the nav bar
+9. **PDF export** — download structured analysis reports
 
 <span class="lab-section-num">// 02</span>
 
@@ -81,6 +85,7 @@ RAGistrat employs Retrieval-Augmented Generation to analyse law students' writte
 | `PromptBuilder` | Assembles analysis prompts from submission, retrieved context, and assessment rules |
 | `RuleEvaluator` | Evaluates submissions against 17 configurable assessment rules |
 | `EvaluationRunner` | Fixture-based quality measurement for analysis output |
+| Audit observers | `Analysis`, `AnalysisGrade`, and `Submission` observers write an audit trail of state changes |
 
 <span class="lab-section-num">// 03</span>
 
@@ -118,17 +123,18 @@ The system ships with 17 assessment rules that define what constitutes quality l
 RAGistrat includes a built-in evaluation harness for measuring analysis quality:
 
 - **Fixture-based testing** — predefined submissions with expected outcomes allow systematic quality measurement
-- **Mock providers** — all 191 tests (436 assertions) run without API keys using mock embedding and LLM providers
+- **Mock providers** — all 305 tests (892 assertions) run without API keys using mock embedding and LLM providers
 - **Evaluation CLI** — `evaluate:run` command measures analysis accuracy against fixtures, runnable with mock or real providers
-- **Policy-based authorization** — 6 authorization policies with 39 dedicated tests ensure proper access control across all resources
+- **Policy-based authorization** — 6 authorization policies with 41 dedicated tests ensure proper access control across all resources
+- **Defence in depth** — security headers middleware (X-Frame-Options, HSTS, Referrer-Policy, Permissions-Policy) and rate limiting on analysis endpoints (10/min) and source uploads (20/min)
 
 <span class="lab-section-num">// 06</span>
 
 ## Instructor & Student Interfaces
 
-**Instructor dashboard** — overview statistics, recent activity, case management, source/knowledge base administration, submission review with IRAC breakdown and violation flags, grading with score adjustment, flag accept/dismiss workflow, PDF report export, and notification center.
+**Instructor dashboard** — overview statistics, recent activity, case management, source/knowledge base administration, invite-code generation for student enrollment, submission review with IRAC breakdown and violation flags, grading with score adjustment, flag accept/dismiss workflow, PDF report export, and notification center.
 
-**Student interface** — case browsing, submission upload, and feedback review after instructor grading.
+**Student interface** — a dedicated student dashboard listing enrolled cases and feedback status, invite-code enrollment flow, submission upload, and a filtered analysis view that surfaces grade and IRAC feedback once the instructor publishes.
 
 **Access control** — role-based (admin, instructor, student) with policy-based authorization on all resources. Horizon dashboard restricted to admin/instructor roles.
 
