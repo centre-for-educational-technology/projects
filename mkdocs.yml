@@ -33,6 +33,7 @@ nav:
       - RAGistrat: tools/ragistrat.md
       - Diffusion Game: tools/diffusion-game.md
       - ICAP Lesson Plan: tools/icap-lesson-plan.md
+      - CoTrack: tools/cotrack.md
       - eDidaktikum: tools/edidaktikum.md
   - Approaches:
       - approaches/index.md

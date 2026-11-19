@@ -95,6 +95,24 @@ Selected publications from the Centre for Educational Technology, spanning educa
 </div>
 
 <div class="lab-pub" markdown>
+<div class="lab-pub-year">2024</div>
+<div class="lab-pub-info" markdown>
+<span class="lab-pub-title">How well do collaboration quality estimation models generalize across authentic school contexts?</span>
+<span class="lab-pub-authors">Chejara, P., Kasepalu, R., Prieto, L.P., Rodríguez-Triana, M.J., Ruiz-Calleja, A., & Schneider, B.</span>
+<span class="lab-pub-venue">British Journal of Educational Technology, 55(4). DOI: 10.1111/bjet.13402</span>
+</div>
+</div>
+
+<div class="lab-pub" markdown>
+<div class="lab-pub-year">2024</div>
+<div class="lab-pub-info" markdown>
+<span class="lab-pub-title">The Impact of Attribute Noise on the Automated Estimation of Collaboration Quality Using Multimodal Learning Analytics in Authentic Classrooms</span>
+<span class="lab-pub-authors">Chejara, P., Prieto, L.P., Dimitriadis, Y., Rodríguez-Triana, M.J., Ruiz-Calleja, A., Kasepalu, R., & Shankar, S.K.</span>
+<span class="lab-pub-venue">Journal of Learning Analytics, 11(2), 73–90. DOI: 10.18608/jla.2024.8253</span>
+</div>
+</div>
+
+<div class="lab-pub" markdown>
 <div class="lab-pub-year">2023</div>
 <div class="lab-pub-info" markdown>
 <span class="lab-pub-title">Towards a partnership of teachers and intelligent learning technology: A systematic literature review of model-based learning analytics</span>
@@ -140,6 +158,15 @@ Selected publications from the Centre for Educational Technology, spanning educa
 </div>
 
 <div class="lab-pub" markdown>
+<div class="lab-pub-year">2023</div>
+<div class="lab-pub-info" markdown>
+<span class="lab-pub-title">Studying teacher withitness in the wild: comparing a mirroring and an alerting & guiding dashboard for collaborative learning</span>
+<span class="lab-pub-authors">Kasepalu, R., Chejara, P., Prieto, L.P., & Ley, T.</span>
+<span class="lab-pub-venue">International Journal of Computer-Supported Collaborative Learning, 18(4), 575–606. DOI: 10.1007/s11412-023-09414-z</span>
+</div>
+</div>
+
+<div class="lab-pub" markdown>
 <div class="lab-pub-year">2022</div>
 <div class="lab-pub-info" markdown>
 <span class="lab-pub-title">A Digital Learning Ecosystem to Scaffold Teachers' Learning</span>
@@ -167,6 +194,24 @@ Selected publications from the Centre for Educational Technology, spanning educa
 </div>
 
 <div class="lab-pub" markdown>
+<div class="lab-pub-year">2022</div>
+<div class="lab-pub-info" markdown>
+<span class="lab-pub-title">Do Teachers Find Dashboards Trustworthy, Actionable and Useful? A Vignette Study Using a Logs and Audio Dashboard</span>
+<span class="lab-pub-authors">Kasepalu, R., Prieto, L.P., Ley, T., & Chejara, P.</span>
+<span class="lab-pub-venue">Technology, Knowledge and Learning, 27(3), 971–989. DOI: 10.1007/s10758-021-09522-5</span>
+</div>
+</div>
+
+<div class="lab-pub" markdown>
+<div class="lab-pub-year">2022</div>
+<div class="lab-pub-info" markdown>
+<span class="lab-pub-title">Teacher Artificial Intelligence-Supported Pedagogical Actions in Collaborative Learning Coregulation: A Wizard-of-Oz Study</span>
+<span class="lab-pub-authors">Kasepalu, R., Prieto, L.P., Ley, T., & Chejara, P.</span>
+<span class="lab-pub-venue">Frontiers in Education, 7, 736194. DOI: 10.3389/feduc.2022.736194</span>
+</div>
+</div>
+
+<div class="lab-pub" markdown>
 <div class="lab-pub-year">2021</div>
 <div class="lab-pub-info" markdown>
 <span class="lab-pub-title">A four-country cross-case analysis of academic staff expectations about learning analytics in higher education</span>
@@ -190,6 +235,15 @@ Selected publications from the Centre for Educational Technology, spanning educa
 <span class="lab-pub-title">Exploring the Perceptions of Estonian Teachers' Data Use in School Development</span>
 <span class="lab-pub-authors">Rääk, K., Eisenschmidt, E., & Tammets, K.</span>
 <span class="lab-pub-venue">Education Sciences, 11(6), 262. DOI: 10.3390/educsci11060262</span>
+</div>
+</div>
+
+<div class="lab-pub" markdown>
+<div class="lab-pub-year">2021</div>
+<div class="lab-pub-info" markdown>
+<span class="lab-pub-title">EFAR-MMLA: An Evaluation Framework to Assess and Report Generalizability of Machine Learning Models in MMLA</span>
+<span class="lab-pub-authors">Chejara, P., Prieto, L.P., Ruiz-Calleja, A., Rodríguez-Triana, M.J., Shankar, S.K., & Kasepalu, R.</span>
+<span class="lab-pub-venue">Sensors, 21(8), 2863. DOI: 10.3390/s21082863</span>
 </div>
 </div>
 

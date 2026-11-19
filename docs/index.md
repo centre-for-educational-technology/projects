@@ -98,6 +98,22 @@ Lesson planning tool based on the ICAP framework (Interactive, Constructive, Act
 
 <div class="lab-tool" markdown>
 <div class="lab-tool-meta" markdown>
+<span class="lab-badge lab-badge--stack">Laravel / React</span>
+<span class="lab-badge lab-badge--stack">Reverb / Yjs</span>
+<span class="lab-badge lab-badge--domain">Collaborative Learning / MMLA</span>
+</div>
+<div class="lab-tool-body" markdown>
+
+### CoTrack
+
+Multimodal learning analytics for collaborative group work. Captures each group's shared writing and per-student speech in 30-second frames and predicts seven collaboration-quality dimensions with explained, confidence-rated output for the teacher.
+
+<a href="tools/cotrack/" class="lab-tool-link">Technical details</a>
+</div>
+</div>
+
+<div class="lab-tool" markdown>
+<div class="lab-tool-meta" markdown>
 <span class="lab-badge lab-badge--stack">Laravel / Vue / TS</span>
 <span class="lab-badge lab-badge--stack">DaisyUI</span>
 <span class="lab-badge lab-badge--domain">Competency-Based Learning</span>
