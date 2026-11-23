@@ -22,9 +22,9 @@ A teacher-facing learning analytics tool for collaborative group work. CoTrack c
 
 ## Overview
 
-Collaboration is hard to observe at classroom scale: a teacher moving between five groups sees only fragments of each. CoTrack is a multimodal learning analytics tool that gives the teacher a view of how each group's collaboration develops over a lesson, and lets earlier and later sessions be compared.
+Collaboration is difficult to observe at a classroom scale: a teacher moving between five groups sees only fragments of the work each group is doing. CoTrack is a multimodal learning analytics tool that gives the teacher an overview of how each group's collaboration develops over a lesson, and provides the opportunity to compare different sessions with one another.
 
-During group work, students write together in a shared editor while each student's microphone records their own speech. The session is divided into 30-second frames. For every frame, the system derives behavioural features from the writing and speech activity and predicts collaboration-quality dimensions at group level, plus individual engagement per student. Each prediction carries its decision path and a confidence value, so the teacher can see why the tool reached its estimate.
+During group work, students write together in a shared editor while each student's microphone records their own speech. The session is divided into 30-second frames. For every frame, the system derives behavioural features from the writing and speech activity and predicts collaboration-quality dimensions at group level, plus individual engagement per student. The teacher can inspect the decision path and confidence value of each prediction to understand the basis for the tool's assessment of collaboration quality.
 
 CoTrack is a ground-up rebuild of an earlier Django-based research prototype developed at the centre. The rebuild keeps the original research logic (feature pipeline, collaboration dimensions, 30-second frames, group-level collaboration quality) while replacing the browser-specific capture and speech recognition the prototype depended on.
 
@@ -101,7 +101,7 @@ CoTrack rates collaboration on a five-point scale (−2 to +2) per 30-second fra
 | Dimension | Level | Focus |
 |-----------|-------|-------|
 | **Collaboration flow** (CF) | Group | Whether students build on each other's contributions and keep a coherent discussion on the shared task |
-| **Sustaining mutual understanding** (SMU) | Group | Whether ideas are explained, acknowledged, and clarified so a common understanding is maintained |
+| **Sustaining mutual understanding** (SMU) | Group | Whether ideas are explained, acknowledged, and clarified so a common understanding is built and maintained |
 | **Knowledge exchange** (KE) | Group | How students externalise their thinking and make their ideas available to others |
 | **Argumentation** (ARG) | Group | How students evaluate ideas, compare alternatives, justify their thinking, and negotiate decisions |
 | **Structure and time management** (STR) | Group | How the group plans next steps, coordinates responsibilities, monitors progress, and manages time |
@@ -118,7 +118,7 @@ A researcher-authored codebook describes each level of each dimension in one sen
 
 **Writing** — the shared editor is a CRDT, so concurrent typists' edits merge instead of overwriting each other. Every edit is logged per author, and these logs are the source of the writing features (characters added and deleted per student).
 
-**Speech** — each student records through their own microphone in short segments aligned to the session's 30-second window grid. Voice activity detection runs in the browser, so speaking time, speech turns, and loudness are computed on the student's device. Wired clip-on microphones keep each stream close to single-speaker, which matters because built-in laptop microphones pick up the whole table.
+**Speech** — each student records through their own microphone in short segments aligned to the session's 30-second window grid. Voice activity detection runs in the browser, so speaking time, speech turns, and loudness are computed on the student's device. Wired clip-on microphones keep each stream close to single-speaker, which matters because built-in laptop microphones pick up the discussion of the whole group.
 
 **Pipeline** — when a session ends (and every minute during a live session), the system:
 
@@ -140,7 +140,7 @@ For every frame the teacher sees:
 - **Confidence** — derived from how much the trees agree
 - **Decision path** — a baseline plus the contribution of each feature, rendered as a plain-language explanation of why the score is what it is
 
-The current models use writing features only. Speech activity, speech turns, and transcripts are shown to the teacher as evidence alongside the prediction, but are not yet model inputs; the next models will be retrained on classroom data captured through the tool itself.
+The current models use writing features only. Speech activity, speech turns, and transcripts are shown to the teacher as evidence alongside the prediction, but are not yet model inputs. Once enough audio data has been human-coded, the next models will be retrained on both writing and speech, using classroom data captured through the tool itself.
 
 <span class="lab-section-num">// 06</span>
 
